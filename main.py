@@ -31,8 +31,9 @@ if __name__ == "__main__":
     points = file_parser.read_point_cloud(args.file)
 
     cloud_len = points.shape[0]
-    #n_iterations = cloud_len * 5
-    n_iterations = int(cloud_len/1000)
+    n_iterations = 1000
+    # n_iterations = cloud_len * 5
+    # n_iterations = int(cloud_len/1000)
     p_index_set = np.arange(stop=cloud_len, dtype=int)
 
     normal_planes = [np.zeros(6)]
