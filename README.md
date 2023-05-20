@@ -11,4 +11,4 @@ El programa principal `main.py` se ejecuta desde la línea de comandos. Se le pu
 ### Resultados Empíricos
  - `cube.xyz`: detecta sin problemas los 6 planos con threshold de 0.01 e inliers de 500
  - `icosahedron.xyz`: nube de 10k puntos generada artifialmente en el script `gen_icosahedron.py`. Se logra detectar la mayoría de las 20 caras sin problemas con threshold de 0.004 e inliers de 400
- - 
+ - `lans.ply`: resultados aceptables con threshold de 0.0008 y 3000 inliers.
